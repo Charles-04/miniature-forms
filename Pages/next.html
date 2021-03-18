@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Cee budgets</title>
+    <link rel="stylesheet" href="../styles/materialize.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../styles/main.css">
+     <script type="text/javaScript" src="../Scripts/materialize.js"></script>
+</head>
+<body>
+    <nav class="blue z-depth-5 s12 l12 sticky">
+    <span class="">  <img src="../assets/Icon.png" width="50" height="50" class="d-inline-block Left " alt=""> Cee-Budgets</span>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!">Home</a></li>
+        <li><a href="#!">About</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="#!">First</a></li>
+                  <li><a href="#!">Second</a></li>
+                  <li><a href="#!">Third</a></li>
+                  <li><a href="#!">Fourth</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+         
+        <li><a href="#!">Home</a></li>
+        <li><a href="#!">About Us</a></li>
+        <li><a href="../index.html">Sign in</a></li>
+         
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Menu<i class="material-icons right"> </i></a></li></nav>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!">First</a></li>
+          <li><a href="#!">Second</a></li>
+          <li><a href="#!">Third</a></li>
+          <li><a href="#!">Fourth</a></li>
+        </ul>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <div class="row ">
+          <div class="col l6 s12">
+              <img src="../assets/budget2.jpeg"  class="img" alt="">
+          </div>
+        <form class="col l6 s12">
+            <div class="class">Sign Up</div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            </div>
+            <div class="row">
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="username" type="text" class="validate">
+              <label for="username">Username</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="row">
+              <label for="checkbox">
+              <input type="checkbox" id="checkbox">
+              <span>I agree to the terms and conditions</span>
+            </label>
+            </div>
+            <button id="sign" class="center"> Sign Up</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>

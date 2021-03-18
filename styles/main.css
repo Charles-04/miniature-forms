@@ -1,0 +1,37 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;}
+    
+a{
+    color: rgb(70, 19, 253);
+}
+}
+/*form{
+    border: solid black 2px;
+    margin-left: 10%;
+    width: 50px;
+    font-size: x-large;
+
+}*/
+form>input{
+    height: 200px;
+    line-height: 20%;
+}
+.navbar-brand{
+    margin-top: 5px;
+}
+.white{
+
+    color: black;
+}
+#sign{
+     width: 100%;
+     background-color: blue !important;
+     height: 40px;
+     border-radius: 5px;
+}
+nav{
+    position: sticky;
+    top: 2px;
+}
